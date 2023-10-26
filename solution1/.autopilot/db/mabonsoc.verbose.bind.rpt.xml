@@ -1,0 +1,62 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'mabonsoc'" level="0">
+<item name = "Date">Sat Aug 19 15:58:54 2023
+</item>
+<item name = "Version">2019.1 (Build 2552052 on Fri May 24 15:28:33 MDT 2019)</item>
+<item name = "Project">mabonSOC</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg484-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 8.750, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">51, 51, 48, 48, function</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+<column name="grp_sqrt_fixed_28_15_s_fu_1153">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1158">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1163">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1168">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1173">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1178">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1183">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1188">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1193">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1198">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1203">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1208">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1213">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1218">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1223">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_sqrt_fixed_28_15_s_fu_1228">sqrt_fixed_28_15_s, 10, 10, 1, 1, function</column>
+<column name="grp_log_28_15_s_fu_1233">log_28_15_s, 6, 6, 1, 1, function</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

@@ -1,0 +1,1436 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Aug 17 14:03:15 2023
+# Process ID: 2944
+# Current directory: C:/Users/animesh21131/mabonSOC/mabonsoc.runs/design_1_mabonsoc_0_5_synth_1
+# Command line: vivado.exe -log design_1_mabonsoc_0_5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_mabonsoc_0_5.tcl
+# Log file: C:/Users/animesh21131/mabonSOC/mabonsoc.runs/design_1_mabonsoc_0_5_synth_1/design_1_mabonsoc_0_5.vds
+# Journal file: C:/Users/animesh21131/mabonSOC/mabonsoc.runs/design_1_mabonsoc_0_5_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_mabonsoc_0_5.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/animesh21131/mabonSOC'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/animesh21131/mabonSOC' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/animesh21131/mabonSOC/mabonsoc.runs/design_1_mabonsoc_0_5_synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_mabonsoc_0_5 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15352 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 790.289 ; gain = 177.609
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_mabonsoc_0_5' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ip/design_1_mabonsoc_0_5/synth/design_1_mabonsoc_0_5.v:58]
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:12]
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 40'b0000000000000000000000000000000000000001 
+	Parameter ap_ST_fsm_pp0_stage1 bound to: 40'b0000000000000000000000000000000000000010 
+	Parameter ap_ST_fsm_pp0_stage2 bound to: 40'b0000000000000000000000000000000000000100 
+	Parameter ap_ST_fsm_pp0_stage3 bound to: 40'b0000000000000000000000000000000000001000 
+	Parameter ap_ST_fsm_pp0_stage4 bound to: 40'b0000000000000000000000000000000000010000 
+	Parameter ap_ST_fsm_pp0_stage5 bound to: 40'b0000000000000000000000000000000000100000 
+	Parameter ap_ST_fsm_pp0_stage6 bound to: 40'b0000000000000000000000000000000001000000 
+	Parameter ap_ST_fsm_pp0_stage7 bound to: 40'b0000000000000000000000000000000010000000 
+	Parameter ap_ST_fsm_pp0_stage8 bound to: 40'b0000000000000000000000000000000100000000 
+	Parameter ap_ST_fsm_pp0_stage9 bound to: 40'b0000000000000000000000000000001000000000 
+	Parameter ap_ST_fsm_pp0_stage10 bound to: 40'b0000000000000000000000000000010000000000 
+	Parameter ap_ST_fsm_pp0_stage11 bound to: 40'b0000000000000000000000000000100000000000 
+	Parameter ap_ST_fsm_pp0_stage12 bound to: 40'b0000000000000000000000000001000000000000 
+	Parameter ap_ST_fsm_pp0_stage13 bound to: 40'b0000000000000000000000000010000000000000 
+	Parameter ap_ST_fsm_pp0_stage14 bound to: 40'b0000000000000000000000000100000000000000 
+	Parameter ap_ST_fsm_pp0_stage15 bound to: 40'b0000000000000000000000001000000000000000 
+	Parameter ap_ST_fsm_pp0_stage16 bound to: 40'b0000000000000000000000010000000000000000 
+	Parameter ap_ST_fsm_pp0_stage17 bound to: 40'b0000000000000000000000100000000000000000 
+	Parameter ap_ST_fsm_pp0_stage18 bound to: 40'b0000000000000000000001000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage19 bound to: 40'b0000000000000000000010000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage20 bound to: 40'b0000000000000000000100000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage21 bound to: 40'b0000000000000000001000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage22 bound to: 40'b0000000000000000010000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage23 bound to: 40'b0000000000000000100000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage24 bound to: 40'b0000000000000001000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage25 bound to: 40'b0000000000000010000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage26 bound to: 40'b0000000000000100000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage27 bound to: 40'b0000000000001000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage28 bound to: 40'b0000000000010000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage29 bound to: 40'b0000000000100000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage30 bound to: 40'b0000000001000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage31 bound to: 40'b0000000010000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage32 bound to: 40'b0000000100000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage33 bound to: 40'b0000001000000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage34 bound to: 40'b0000010000000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage35 bound to: 40'b0000100000000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage36 bound to: 40'b0001000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage37 bound to: 40'b0010000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage38 bound to: 40'b0100000000000000000000000000000000000000 
+	Parameter ap_ST_fsm_pp0_stage39 bound to: 40'b1000000000000000000000000000000000000000 
+	Parameter C_S_AXI_BUS_A_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_BUS_A_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_BUS_A_WSTRB_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_WSTRB_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:107]
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc_BUS_A_s_axi' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_BUS_A_s_axi.v:6]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADDR_AP_CTRL bound to: 5'b00000 
+	Parameter ADDR_GIE bound to: 5'b00100 
+	Parameter ADDR_IER bound to: 5'b01000 
+	Parameter ADDR_ISR bound to: 5'b01100 
+	Parameter ADDR_OUT_R_DATA_0 bound to: 5'b10000 
+	Parameter ADDR_OUT_R_CTRL bound to: 5'b10100 
+	Parameter ADDR_REWARD_DATA_0 bound to: 5'b11000 
+	Parameter ADDR_REWARD_CTRL bound to: 5'b11100 
+	Parameter WRIDLE bound to: 2'b00 
+	Parameter WRDATA bound to: 2'b01 
+	Parameter WRRESP bound to: 2'b10 
+	Parameter WRRESET bound to: 2'b11 
+	Parameter RDIDLE bound to: 2'b00 
+	Parameter RDDATA bound to: 2'b01 
+	Parameter RDRESET bound to: 2'b10 
+	Parameter ADDR_BITS bound to: 5 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_BUS_A_s_axi.v:202]
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc_BUS_A_s_axi' (1#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_BUS_A_s_axi.v:6]
+INFO: [Synth 8-6157] synthesizing module 'sqrt_fixed_28_15_s' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:10]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1056]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1058]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1060]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1062]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1064]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1066]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1068]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1078]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1080]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1082]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1084]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1086]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1088]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1090]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1092]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1094]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1096]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1098]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1100]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1102]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1104]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1106]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1108]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1110]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1112]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1114]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1116]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1118]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1120]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1122]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1124]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1126]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1128]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1130]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1132]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1134]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1136]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1138]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1140]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1142]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1144]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1146]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1148]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1150]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1152]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1154]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1156]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1158]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1160]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1162]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1164]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1166]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1168]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1170]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1172]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1174]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1176]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1178]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1180]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1182]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1184]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1186]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1188]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1190]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1192]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1194]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1196]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1198]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1200]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1202]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1204]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1206]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1208]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1210]
+INFO: [Synth 8-6155] done synthesizing module 'sqrt_fixed_28_15_s' (2#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'log_28_15_s' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v:10]
+	Parameter ap_ST_fsm_pp0_stage0 bound to: 1'b1 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v:36]
+INFO: [Synth 8-6157] synthesizing module 'log_28_15_s_log_abkb' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_abkb.v:39]
+	Parameter DataWidth bound to: 6 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'log_28_15_s_log_abkb_rom' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_abkb.v:6]
+	Parameter DWIDTH bound to: 6 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "distributed" *) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_abkb.v:18]
+INFO: [Synth 8-3876] $readmem data file './log_28_15_s_log_abkb_rom.dat' is read successfully [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_abkb.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'log_28_15_s_log_abkb_rom' (3#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_abkb.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'log_28_15_s_log_abkb' (4#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_abkb.v:39]
+INFO: [Synth 8-6157] synthesizing module 'log_28_15_s_log_acud' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_acud.v:39]
+	Parameter DataWidth bound to: 22 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'log_28_15_s_log_acud_rom' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_acud.v:6]
+	Parameter DWIDTH bound to: 22 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+	Parameter MEM_SIZE bound to: 64 - type: integer 
+INFO: [Synth 8-3876] $readmem data file './log_28_15_s_log_acud_rom.dat' is read successfully [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_acud.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'log_28_15_s_log_acud_rom' (5#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_acud.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'log_28_15_s_log_acud' (6#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_acud.v:39]
+INFO: [Synth 8-6157] synthesizing module 'log_28_15_s_log_adEe' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_adEe.v:39]
+	Parameter DataWidth bound to: 18 - type: integer 
+	Parameter AddressRange bound to: 16 - type: integer 
+	Parameter AddressWidth bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'log_28_15_s_log_adEe_rom' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_adEe.v:6]
+	Parameter DWIDTH bound to: 18 - type: integer 
+	Parameter AWIDTH bound to: 4 - type: integer 
+	Parameter MEM_SIZE bound to: 16 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "distributed" *) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_adEe.v:18]
+INFO: [Synth 8-3876] $readmem data file './log_28_15_s_log_adEe_rom.dat' is read successfully [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_adEe.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'log_28_15_s_log_adEe_rom' (7#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_adEe.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'log_28_15_s_log_adEe' (8#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_adEe.v:39]
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc_mac_mulseOg' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_mac_mulseOg.v:30]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 24 - type: integer 
+	Parameter din1_WIDTH bound to: 4 - type: integer 
+	Parameter din2_WIDTH bound to: 29 - type: integer 
+	Parameter dout_WIDTH bound to: 29 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc_mac_mulseOg_DSP48_0' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_mac_mulseOg.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc_mac_mulseOg_DSP48_0' (9#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_mac_mulseOg.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc_mac_mulseOg' (10#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_mac_mulseOg.v:30]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v:1169]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v:1279]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v:1281]
+INFO: [Synth 8-6155] done synthesizing module 'log_28_15_s' (11#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v:10]
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc_mux_42_1fYi' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_mux_42_1fYi.v:8]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 14 - type: integer 
+	Parameter din1_WIDTH bound to: 14 - type: integer 
+	Parameter din2_WIDTH bound to: 14 - type: integer 
+	Parameter din3_WIDTH bound to: 14 - type: integer 
+	Parameter din4_WIDTH bound to: 2 - type: integer 
+	Parameter dout_WIDTH bound to: 14 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc_mux_42_1fYi' (12#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_mux_42_1fYi.v:8]
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc_sdiv_32ng8j' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:152]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 36 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 15 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc_sdiv_32ng8j_div' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:73]
+	Parameter in0_WIDTH bound to: 32 - type: integer 
+	Parameter in1_WIDTH bound to: 15 - type: integer 
+	Parameter out_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc_sdiv_32ng8j_div_u' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:7]
+	Parameter in0_WIDTH bound to: 32 - type: integer 
+	Parameter in1_WIDTH bound to: 15 - type: integer 
+	Parameter out_WIDTH bound to: 32 - type: integer 
+	Parameter cal_WIDTH bound to: 32 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element loop[31].divisor_tmp_reg[32] was removed.  [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc_sdiv_32ng8j_div_u' (13#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc_sdiv_32ng8j_div' (14#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc_sdiv_32ng8j' (15#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:152]
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc_udiv_18nhbi' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:127]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 22 - type: integer 
+	Parameter din0_WIDTH bound to: 18 - type: integer 
+	Parameter din1_WIDTH bound to: 14 - type: integer 
+	Parameter dout_WIDTH bound to: 18 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc_udiv_18nhbi_div' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:67]
+	Parameter in0_WIDTH bound to: 18 - type: integer 
+	Parameter in1_WIDTH bound to: 14 - type: integer 
+	Parameter out_WIDTH bound to: 18 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc_udiv_18nhbi_div_u' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:7]
+	Parameter in0_WIDTH bound to: 18 - type: integer 
+	Parameter in1_WIDTH bound to: 14 - type: integer 
+	Parameter out_WIDTH bound to: 18 - type: integer 
+	Parameter cal_WIDTH bound to: 18 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element loop[17].divisor_tmp_reg[18] was removed.  [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:51]
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc_udiv_18nhbi_div_u' (16#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc_udiv_18nhbi_div' (17#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc_udiv_18nhbi' (18#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:127]
+INFO: [Synth 8-6157] synthesizing module 'mabonsoc_mux_42_1ibs' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_mux_42_1ibs.v:8]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 15 - type: integer 
+	Parameter din1_WIDTH bound to: 15 - type: integer 
+	Parameter din2_WIDTH bound to: 15 - type: integer 
+	Parameter din3_WIDTH bound to: 15 - type: integer 
+	Parameter din4_WIDTH bound to: 2 - type: integer 
+	Parameter dout_WIDTH bound to: 15 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc_mux_42_1ibs' (19#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_mux_42_1ibs.v:8]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2305]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2307]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2309]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2311]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2313]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2315]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2317]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2319]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2321]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2323]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2325]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2327]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2329]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2331]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2333]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2335]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2337]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2339]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2341]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2343]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2345]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2347]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator === with logical equality operator == [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:2349]
+INFO: [Common 17-14] Message 'Synth 8-589' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'mabonsoc' (20#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_mabonsoc_0_5' (21#1) [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ip/design_1_mabonsoc_0_5/synth/design_1_mabonsoc_0_5.v:58]
+WARNING: [Synth 8-3331] design mabonsoc_udiv_18nhbi_div_u has unconnected port reset
+WARNING: [Synth 8-3331] design mabonsoc_sdiv_32ng8j_div_u has unconnected port reset
+WARNING: [Synth 8-3331] design log_28_15_s_log_adEe has unconnected port reset
+WARNING: [Synth 8-3331] design log_28_15_s_log_acud has unconnected port reset
+WARNING: [Synth 8-3331] design log_28_15_s_log_abkb has unconnected port reset
+WARNING: [Synth 8-3331] design sqrt_fixed_28_15_s has unconnected port ap_rst
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 867.313 ; gain = 254.633
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 867.313 ; gain = 254.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 867.313 ; gain = 254.633
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ip/design_1_mabonsoc_0_5/constraints/mabonsoc_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ip/design_1_mabonsoc_0_5/constraints/mabonsoc_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/animesh21131/mabonSOC/mabonsoc.runs/design_1_mabonsoc_0_5_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/animesh21131/mabonSOC/mabonsoc.runs/design_1_mabonsoc_0_5_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1040.770 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.400 . Memory (MB): peak = 1060.840 ; gain = 20.070
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1060.840 ; gain = 448.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1060.840 ; gain = 448.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for inst. (constraint file  C:/Users/animesh21131/mabonSOC/mabonsoc.runs/design_1_mabonsoc_0_5_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1060.840 ; gain = 448.160
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'mabonsoc_BUS_A_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'mabonsoc_BUS_A_s_axi'
+INFO: [Synth 8-4471] merging register 'icmp_ln318_3_reg_2947_reg[0:0]' into 'icmp_ln1495_3_reg_2937_reg[0:0]' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:552]
+INFO: [Synth 8-4471] merging register 'select_ln318_7_reg_2905_reg[0:0]' into 'select_ln318_4_reg_2891_reg[0:0]' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1080]
+INFO: [Synth 8-4471] merging register 'zext_ln1494_3_reg_2922_reg[17:5]' into 'select_ln318_reg_2869_reg[12:0]' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1258]
+INFO: [Synth 8-4471] merging register 'select_ln318_13_reg_2958_reg[0:0]' into 'select_ln318_4_reg_2891_reg[0:0]' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:840]
+INFO: [Synth 8-4471] merging register 'select_ln318_16_reg_2986_reg[0:0]' into 'select_ln318_4_reg_2891_reg[0:0]' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1098]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1178]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1180]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1184]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1186]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v:1190]
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "ram". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "ram". This will be implemented in logic
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_V_8_reg_2467_reg' and it is trimmed from '41' to '35' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v:667]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v:1273]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[30].remd_tmp_reg[31]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[29].remd_tmp_reg[30]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[28].remd_tmp_reg[29]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[27].remd_tmp_reg[28]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[26].remd_tmp_reg[27]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[25].remd_tmp_reg[26]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[24].remd_tmp_reg[25]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[23].remd_tmp_reg[24]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[22].remd_tmp_reg[23]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[21].remd_tmp_reg[22]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[20].remd_tmp_reg[21]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[19].remd_tmp_reg[20]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[18].remd_tmp_reg[19]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[17].remd_tmp_reg[18]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[16].remd_tmp_reg[17]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[15].remd_tmp_reg[16]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[14].remd_tmp_reg[15]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[13].remd_tmp_reg[14]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[12].remd_tmp_reg[13]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[11].remd_tmp_reg[12]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[10].remd_tmp_reg[11]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[9].remd_tmp_reg[10]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[8].remd_tmp_reg[9]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[7].remd_tmp_reg[8]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[6].remd_tmp_reg[7]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[5].remd_tmp_reg[6]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[4].remd_tmp_reg[5]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[3].remd_tmp_reg[4]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[2].remd_tmp_reg[3]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[1].remd_tmp_reg[2]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[0].remd_tmp_reg[1]' and it is trimmed from '32' to '31' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v:55]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[16].remd_tmp_reg[17]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[15].remd_tmp_reg[16]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[14].remd_tmp_reg[15]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[13].remd_tmp_reg[14]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[12].remd_tmp_reg[13]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[11].remd_tmp_reg[12]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[10].remd_tmp_reg[11]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[9].remd_tmp_reg[10]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[8].remd_tmp_reg[9]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[7].remd_tmp_reg[8]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[6].remd_tmp_reg[7]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[5].remd_tmp_reg[6]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[4].remd_tmp_reg[5]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[3].remd_tmp_reg[4]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[2].remd_tmp_reg[3]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[1].remd_tmp_reg[2]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+WARNING: [Synth 8-3936] Found unconnected internal register 'loop[0].remd_tmp_reg[1]' and it is trimmed from '18' to '17' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v:50]
+INFO: [Synth 8-4471] merging register 'ap_phi_reg_pp0_iter1_T_V_1_new_2_reg_193_reg[13:0]' into 'ap_phi_reg_pp0_iter1_T_V_0_new_2_reg_172_reg[13:0]' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:940]
+INFO: [Synth 8-4471] merging register 'ap_phi_reg_pp0_iter1_T_V_2_new_2_reg_214_reg[13:0]' into 'ap_phi_reg_pp0_iter1_T_V_0_new_2_reg_172_reg[13:0]' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:956]
+INFO: [Synth 8-4471] merging register 'ap_phi_reg_pp0_iter1_T_V_3_new_2_reg_235_reg[13:0]' into 'ap_phi_reg_pp0_iter1_T_V_0_new_2_reg_172_reg[13:0]' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v:972]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                               11
+*
+                  WRIDLE |                             0010 |                               00
+                  WRDATA |                             0100 |                               01
+                  WRRESP |                             1000 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'mabonsoc_BUS_A_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                               10
+*
+                  RDIDLE |                              010 |                               00
+                  RDDATA |                              100 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'mabonsoc_BUS_A_s_axi'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1060.840 ; gain = 448.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |sqrt_fixed_28_15_s   |           4|      8215|
+|2     |mabonsoc_sdiv_32ng8j |           4|      7931|
+|3     |mabonsoc__GC0        |           1|     17316|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 128   
+	   2 Input     32 Bit       Adders := 12    
+	   3 Input     29 Bit       Adders := 1     
+	   2 Input     29 Bit       Adders := 2     
+	   3 Input     26 Bit       Adders := 1     
+	   2 Input     22 Bit       Adders := 1     
+	   3 Input     19 Bit       Adders := 72    
+	   2 Input     18 Bit       Adders := 32    
+	   3 Input     18 Bit       Adders := 12    
+	   4 Input     18 Bit       Adders := 20    
+	   2 Input     15 Bit       Adders := 12    
+	   2 Input     14 Bit       Adders := 11    
+	   3 Input     14 Bit       Adders := 44    
+	   4 Input     14 Bit       Adders := 24    
+	   3 Input     10 Bit       Adders := 4     
+	   3 Input      9 Bit       Adders := 4     
+	   2 Input      8 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 91    
++---Registers : 
+	               40 Bit    Registers := 1     
+	               35 Bit    Registers := 2     
+	               32 Bit    Registers := 155   
+	               31 Bit    Registers := 124   
+	               28 Bit    Registers := 6     
+	               24 Bit    Registers := 1     
+	               22 Bit    Registers := 5     
+	               21 Bit    Registers := 4     
+	               18 Bit    Registers := 157   
+	               17 Bit    Registers := 69    
+	               16 Bit    Registers := 5     
+	               15 Bit    Registers := 145   
+	               14 Bit    Registers := 155   
+	               13 Bit    Registers := 32    
+	               12 Bit    Registers := 4     
+	               10 Bit    Registers := 8     
+	                9 Bit    Registers := 5     
+	                8 Bit    Registers := 44    
+	                7 Bit    Registers := 34    
+	                6 Bit    Registers := 33    
+	                5 Bit    Registers := 41    
+	                4 Bit    Registers := 33    
+	                3 Bit    Registers := 24    
+	                2 Bit    Registers := 170   
+	                1 Bit    Registers := 146   
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	  41 Input     40 Bit        Muxes := 1     
+	   2 Input     35 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 17    
+	   2 Input     31 Bit        Muxes := 124   
+	   2 Input     29 Bit        Muxes := 1     
+	   2 Input     28 Bit        Muxes := 1     
+	   2 Input     21 Bit        Muxes := 4     
+	   2 Input     18 Bit        Muxes := 68    
+	   3 Input     18 Bit        Muxes := 16    
+	   2 Input     17 Bit        Muxes := 68    
+	   2 Input     15 Bit        Muxes := 10    
+	   2 Input     14 Bit        Muxes := 165   
+	   2 Input      8 Bit        Muxes := 12    
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 6     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 40    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sqrt_fixed_28_15_s 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     18 Bit       Adders := 8     
+	   3 Input     18 Bit       Adders := 3     
+	   4 Input     18 Bit       Adders := 5     
+	   2 Input     15 Bit       Adders := 1     
+	   2 Input     14 Bit       Adders := 2     
+	   3 Input     14 Bit       Adders := 11    
+	   4 Input     14 Bit       Adders := 6     
+	   3 Input     10 Bit       Adders := 1     
+	   3 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 14    
++---Registers : 
+	               21 Bit    Registers := 1     
+	               18 Bit    Registers := 14    
+	               16 Bit    Registers := 1     
+	               14 Bit    Registers := 14    
+	               13 Bit    Registers := 8     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 11    
+	                7 Bit    Registers := 8     
+	                6 Bit    Registers := 8     
+	                5 Bit    Registers := 9     
+	                4 Bit    Registers := 8     
+	                3 Bit    Registers := 6     
+	                2 Bit    Registers := 8     
+	                1 Bit    Registers := 28    
++---Muxes : 
+	   2 Input     21 Bit        Muxes := 1     
+	   2 Input     18 Bit        Muxes := 16    
+	   3 Input     18 Bit        Muxes := 4     
+	   2 Input     14 Bit        Muxes := 34    
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module mabonsoc_sdiv_32ng8j_div_u 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 32    
++---Registers : 
+	               32 Bit    Registers := 35    
+	               31 Bit    Registers := 31    
+	               15 Bit    Registers := 32    
+	                2 Bit    Registers := 33    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     31 Bit        Muxes := 31    
+Module mabonsoc_sdiv_32ng8j_div 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     15 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               15 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input     15 Bit        Muxes := 1     
+Module mabonsoc_BUS_A_s_axi 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module log_28_15_s_log_abkb_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
+Module log_28_15_s_log_acud_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	               22 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module log_28_15_s_log_adEe_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 1     
+Module log_28_15_s 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     29 Bit       Adders := 1     
+	   2 Input     29 Bit       Adders := 2     
+	   3 Input     26 Bit       Adders := 1     
+	   2 Input     22 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 29    
++---Registers : 
+	               35 Bit    Registers := 2     
+	               28 Bit    Registers := 6     
+	               24 Bit    Registers := 1     
+	               22 Bit    Registers := 4     
+	               16 Bit    Registers := 1     
+	               15 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 4     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 13    
++---Muxes : 
+	   2 Input     35 Bit        Muxes := 1     
+	   2 Input     29 Bit        Muxes := 1     
+	   2 Input     28 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+Module mabonsoc_mux_42_1fYi__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 3     
+Module mabonsoc_udiv_18nhbi_div_u__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     19 Bit       Adders := 18    
++---Registers : 
+	               18 Bit    Registers := 21    
+	               17 Bit    Registers := 17    
+	               14 Bit    Registers := 18    
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 17    
+Module mabonsoc_udiv_18nhbi_div__1 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 3     
+	               14 Bit    Registers := 1     
+Module mabonsoc_udiv_18nhbi_div_u__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     19 Bit       Adders := 18    
++---Registers : 
+	               18 Bit    Registers := 21    
+	               17 Bit    Registers := 17    
+	               14 Bit    Registers := 18    
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 17    
+Module mabonsoc_udiv_18nhbi_div__2 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 3     
+	               14 Bit    Registers := 1     
+Module mabonsoc_udiv_18nhbi_div_u__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     19 Bit       Adders := 18    
++---Registers : 
+	               18 Bit    Registers := 21    
+	               17 Bit    Registers := 17    
+	               14 Bit    Registers := 18    
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 17    
+Module mabonsoc_udiv_18nhbi_div__3 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 3     
+	               14 Bit    Registers := 1     
+Module mabonsoc_udiv_18nhbi_div_u 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     19 Bit       Adders := 18    
++---Registers : 
+	               18 Bit    Registers := 21    
+	               17 Bit    Registers := 17    
+	               14 Bit    Registers := 18    
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 17    
+Module mabonsoc_udiv_18nhbi_div 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 3     
+	               14 Bit    Registers := 1     
+Module mabonsoc_mux_42_1ibs__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     15 Bit        Muxes := 3     
+Module mabonsoc_mux_42_1ibs 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     15 Bit        Muxes := 3     
+Module mabonsoc_mux_42_1fYi 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 3     
+Module mabonsoc 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     15 Bit       Adders := 4     
+	   2 Input     14 Bit       Adders := 3     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               18 Bit    Registers := 4     
+	               17 Bit    Registers := 1     
+	               15 Bit    Registers := 12    
+	               14 Bit    Registers := 23    
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	  41 Input     40 Bit        Muxes := 1     
+	   2 Input     14 Bit        Muxes := 23    
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 34    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'trunc_ln_reg_2496_reg[8:0]' into 'trunc_ln_reg_2496_reg[8:0]' [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v:744]
+WARNING: [Synth 8-3936] Found unconnected internal register 'p_Val2_54_lcssa_reg_357_pp0_iter2_reg_reg' and it is trimmed from '19' to '18' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v:737]
+WARNING: [Synth 8-3936] Found unconnected internal register 'p_Val2_54_lcssa_reg_357_reg' and it is trimmed from '19' to '18' bits. [c:/Users/animesh21131/mabonSOC/mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v:684]
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+DSP Report: Generating DSP r_V_8_fu_1931_p2, operation Mode is: A''*B''.
+DSP Report: register r_V_8_fu_1931_p2 is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: register r_V_8_fu_1931_p2 is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: register r_V_8_fu_1931_p2 is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: register r_V_8_fu_1931_p2 is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: operator r_V_8_fu_1931_p2 is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: operator r_V_8_fu_1931_p2 is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: Generating DSP r_V_8_fu_1931_p2, operation Mode is: (PCIN>>17)+A''*B''.
+DSP Report: register r_V_8_fu_1931_p2 is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: register r_V_8_fu_1931_p2 is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: register p_Val2_54_lcssa_reg_357_reg is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: register p_Val2_54_lcssa_reg_357_pp0_iter2_reg_reg is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: operator r_V_8_fu_1931_p2 is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: operator r_V_8_fu_1931_p2 is absorbed into DSP r_V_8_fu_1931_p2.
+DSP Report: Generating DSP mabonsoc_mac_mulseOg_U1/mabonsoc_mac_mulseOg_DSP48_0_U/p, operation Mode is: C-A2*B2.
+DSP Report: register mabonsoc_mac_mulseOg_U1/mabonsoc_mac_mulseOg_DSP48_0_U/p is absorbed into DSP mabonsoc_mac_mulseOg_U1/mabonsoc_mac_mulseOg_DSP48_0_U/p.
+DSP Report: register mabonsoc_mac_mulseOg_U1/mabonsoc_mac_mulseOg_DSP48_0_U/p is absorbed into DSP mabonsoc_mac_mulseOg_U1/mabonsoc_mac_mulseOg_DSP48_0_U/p.
+DSP Report: operator mabonsoc_mac_mulseOg_U1/mabonsoc_mac_mulseOg_DSP48_0_U/p is absorbed into DSP mabonsoc_mac_mulseOg_U1/mabonsoc_mac_mulseOg_DSP48_0_U/p.
+DSP Report: operator mabonsoc_mac_mulseOg_U1/mabonsoc_mac_mulseOg_DSP48_0_U/m is absorbed into DSP mabonsoc_mac_mulseOg_U1/mabonsoc_mac_mulseOg_DSP48_0_U/p.
+DSP Report: Generating DSP r_V_10_fu_2072_p2, operation Mode is: A2*B2.
+DSP Report: register trunc_ln_reg_2496_reg is absorbed into DSP r_V_10_fu_2072_p2.
+DSP Report: register trunc_ln_reg_2496_reg is absorbed into DSP r_V_10_fu_2072_p2.
+DSP Report: operator r_V_10_fu_2072_p2 is absorbed into DSP r_V_10_fu_2072_p2.
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_32_reg_2859_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_reg[4]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_reg[4]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_reg[5]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_reg[5]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_reg[6]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_reg[6]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_19_reg_2849_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_19_reg_2849_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_19_reg_2849_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_19_reg_2849_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[4]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[4]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[5]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_reg[5]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_reg[4]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_reg[4]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_22_reg_2824_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_22_reg_2824_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_22_reg_2824_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_reg[4]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_reg[4]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_5_reg_2776_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_22_reg_2824_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_21_reg_2814_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_22_reg_2824_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_21_reg_2814_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_22_reg_2824_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_11_reg_2809_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_11_reg_2809_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_5_reg_2799_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_21_reg_2814_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_reg_2804_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_21_reg_2814_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_5_reg_2799_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_5_reg_2799_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_5_reg_2799_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[14]' (FDE) to 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[15]' (FDE) to 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[16]' (FDE) to 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[17]' (FDE) to 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_reg_2804_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_5_reg_2776_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_reg[4]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_5_reg_2776_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_reg[5]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_5_reg_2776_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_reg[6]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_5_reg_2776_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_reg[7]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_5_reg_2776_reg[11]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[11]' (FDE) to 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\select_ln488_5_reg_2776_reg[11] )
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[12]' (FDE) to 'sqrt_fixed_28_15_s:/add_ln703_reg_2789_reg[13]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[4]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[5]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[6]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter1_reg_reg[7]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_32_reg_2859_pp0_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_32_reg_2859_pp0_iter1_reg_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[4]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[5]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_26_reg_2864_pp0_iter1_reg_reg[6]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_19_reg_2849_pp0_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_19_reg_2849_pp0_iter1_reg_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_19_reg_2849_pp0_iter1_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_19_reg_2849_pp0_iter1_reg_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_pp0_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_pp0_iter1_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_pp0_iter1_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[4]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_25_reg_2854_pp0_iter1_reg_reg[5]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_pp0_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_pp0_iter1_reg_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_pp0_iter1_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_pp0_iter1_reg_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_pp0_iter1_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_17_reg_2839_pp0_iter1_reg_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_pp0_iter1_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_pp0_iter1_reg_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_pp0_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_pp0_iter1_reg_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_pp0_iter1_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_pp0_iter1_reg_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_pp0_iter1_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_pp0_iter1_reg_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_pp0_iter1_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_24_reg_2844_pp0_iter1_reg_reg[4]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_pp0_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_pp0_iter1_reg_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_pp0_iter1_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_pp0_iter1_reg_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_pp0_iter1_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_pp0_iter1_reg_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_pp0_iter1_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_15_reg_2829_pp0_iter1_reg_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_pp0_iter1_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_pp0_iter1_reg_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_22_reg_2824_pp0_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_pp0_iter1_reg_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_22_reg_2824_pp0_iter1_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_pp0_iter1_reg_reg[2]' (FDE) to 'sqrt_fixed_28_15_s:/trunc_ln708_22_reg_2824_pp0_iter1_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/trunc_ln708_23_reg_2834_pp0_iter1_reg_reg[3]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_pp0_iter1_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/zext_ln1494_3_reg_2922_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/select_ln488_4_reg_2763_pp0_iter2_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_pp0_iter1_reg_reg[0]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_pp0_iter1_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_pp0_iter1_reg_reg[1]' (FDE) to 'sqrt_fixed_28_15_s:/tmp_13_reg_2819_pp0_iter1_reg_reg[2]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (sqrt_fixed_28_15_s:/\mul_FL_V_9_reg_3097_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\select_ln318_38_reg_3179_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\trunc_ln708_8_reg_2917_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\trunc_ln708_8_reg_2917_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\trunc_ln708_8_reg_2917_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (sqrt_fixed_28_15_s:/\sub_ln703_13_reg_3031_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\trunc_ln708_8_reg_2917_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\trunc_ln708_8_reg_2917_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\trunc_ln708_8_reg_2917_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\trunc_ln708_8_reg_2917_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\trunc_ln708_8_reg_2917_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\select_ln488_4_reg_2763_pp0_iter9_reg_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sqrt_fixed_28_15_s:/\ap_return_int_reg_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/remd_tmp_reg[0][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[0].remd_tmp_reg[1][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].remd_tmp_reg[2][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].remd_tmp_reg[3][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].remd_tmp_reg[4][18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].remd_tmp_reg[4][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].remd_tmp_reg[4][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].remd_tmp_reg[4][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].remd_tmp_reg[4][22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].remd_tmp_reg[4][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].remd_tmp_reg[4][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].remd_tmp_reg[4][25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].remd_tmp_reg[4][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mabonsoc_sdiv_32ng8j:/\mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].remd_tmp_reg[4][27] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_wstate_reg[0]) is unused and will be removed from module mabonsoc_BUS_A_s_axi.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_rstate_reg[0]) is unused and will be removed from module mabonsoc_BUS_A_s_axi.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1060.840 ; gain = 448.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------------------+----------------------------------------------------------+---------------+----------------+
+|Module Name              | RTL Object                                               | Depth x Width | Implemented As | 
++-------------------------+----------------------------------------------------------+---------------+----------------+
+|log_28_15_s_log_abkb_rom | p_0_out                                                  | 64x6          | LUT            | 
+|log_28_15_s_log_adEe_rom | p_0_out                                                  | 16x18         | LUT            | 
+|log_28_15_s              | p_0_out                                                  | 64x6          | LUT            | 
+|log_28_15_s              | log_apfixed_reduce_2_U/log_28_15_s_log_acud_rom_U/q0_reg | 64x22         | Block RAM      | 
++-------------------------+----------------------------------------------------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping        | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|log_28_15_s | A''*B''            | 18     | 7      | -      | -      | 48     | 2    | 2    | -    | -    | -     | 0    | 0    | 
+|log_28_15_s | (PCIN>>17)+A''*B'' | 18     | 7      | -      | -      | 18     | 2    | 2    | -    | -    | -     | 0    | 0    | 
+|log_28_15_s | C-A2*B2            | 25     | 5      | 29     | -      | 29     | 1    | 1    | 0    | -    | -     | 0    | 0    | 
+|log_28_15_s | A2*B2              | 9      | 9      | -      | -      | 18     | 1    | 1    | -    | -    | -     | 0    | 0    | 
++------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance inst/i_0/grp_log_28_15_s_fu_266/i_0/log_apfixed_reduce_2_U/log_28_15_s_log_acud_rom_U/q0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance inst/i_0/grp_log_28_15_s_fu_266/i_0/log_apfixed_reduce_2_U/log_28_15_s_log_acud_rom_U/q0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |sqrt_fixed_28_15_s   |           4|      4174|
+|2     |mabonsoc_sdiv_32ng8j |           4|      4024|
+|3     |mabonsoc__GC0        |           1|     10294|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 1060.840 ; gain = 448.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:00:58 . Memory (MB): peak = 1087.379 ; gain = 474.699
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------+------------+----------+
+|      |RTL Partition         |Replication |Instances |
++------+----------------------+------------+----------+
+|1     |mabonsoc_sdiv_32ng8j  |           4|      4024|
+|2     |mabonsoc__GC0         |           1|     10294|
+|3     |sqrt_fixed_28_15_s__2 |           4|      4138|
++------+----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:06 ; elapsed = 00:01:07 . Memory (MB): peak = 1106.680 ; gain = 494.000
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:10 ; elapsed = 00:01:11 . Memory (MB): peak = 1134.031 ; gain = 521.352
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:11 ; elapsed = 00:01:11 . Memory (MB): peak = 1134.031 ; gain = 521.352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:12 ; elapsed = 00:01:13 . Memory (MB): peak = 1134.031 ; gain = 521.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:12 ; elapsed = 00:01:13 . Memory (MB): peak = 1134.031 ; gain = 521.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:13 ; elapsed = 00:01:13 . Memory (MB): peak = 1135.063 ; gain = 522.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:13 ; elapsed = 00:01:14 . Memory (MB): peak = 1135.063 ; gain = 522.383
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+--------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                                                                                           | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+--------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].dividend_tmp_reg[2][31]    | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].dividend_tmp_reg[3][31]    | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].dividend_tmp_reg[4][31]    | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[4].dividend_tmp_reg[5][31]    | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[5].dividend_tmp_reg[6][31]    | 7      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[6].dividend_tmp_reg[7][31]    | 8      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[7].dividend_tmp_reg[8][31]    | 9      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[8].dividend_tmp_reg[9][31]    | 10     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[9].dividend_tmp_reg[10][31]   | 11     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[10].dividend_tmp_reg[11][31]  | 12     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[11].dividend_tmp_reg[12][31]  | 13     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[12].dividend_tmp_reg[13][31]  | 14     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][19]  | 20     | 1     | NO           | YES                | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][18]  | 19     | 1     | NO           | YES                | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][17]  | 18     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][16]  | 17     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][15]  | 16     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][14]  | 15     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U9/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].sign_tmp_reg[32][1]       | 33     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].dividend_tmp_reg[2][31]   | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].dividend_tmp_reg[3][31]   | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].dividend_tmp_reg[4][31]   | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[4].dividend_tmp_reg[5][31]   | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[5].dividend_tmp_reg[6][31]   | 7      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[6].dividend_tmp_reg[7][31]   | 8      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[7].dividend_tmp_reg[8][31]   | 9      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[8].dividend_tmp_reg[9][31]   | 10     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[9].dividend_tmp_reg[10][31]  | 11     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[10].dividend_tmp_reg[11][31] | 12     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[11].dividend_tmp_reg[12][31] | 13     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[12].dividend_tmp_reg[13][31] | 14     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][19] | 20     | 1     | NO           | YES                | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][18] | 19     | 1     | NO           | YES                | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][17] | 18     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][16] | 17     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][15] | 16     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][14] | 15     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U10/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].sign_tmp_reg[32][1]      | 33     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].dividend_tmp_reg[2][31]   | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].dividend_tmp_reg[3][31]   | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].dividend_tmp_reg[4][31]   | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[4].dividend_tmp_reg[5][31]   | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[5].dividend_tmp_reg[6][31]   | 7      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[6].dividend_tmp_reg[7][31]   | 8      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[7].dividend_tmp_reg[8][31]   | 9      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[8].dividend_tmp_reg[9][31]   | 10     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[9].dividend_tmp_reg[10][31]  | 11     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[10].dividend_tmp_reg[11][31] | 12     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[11].dividend_tmp_reg[12][31] | 13     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[12].dividend_tmp_reg[13][31] | 14     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][19] | 20     | 1     | NO           | YES                | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][18] | 19     | 1     | NO           | YES                | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][17] | 18     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][16] | 17     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][15] | 16     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][14] | 15     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U11/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].sign_tmp_reg[32][1]      | 33     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[1].dividend_tmp_reg[2][31]   | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[2].dividend_tmp_reg[3][31]   | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[3].dividend_tmp_reg[4][31]   | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[4].dividend_tmp_reg[5][31]   | 6      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[5].dividend_tmp_reg[6][31]   | 7      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[6].dividend_tmp_reg[7][31]   | 8      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[7].dividend_tmp_reg[8][31]   | 9      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[8].dividend_tmp_reg[9][31]   | 10     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[9].dividend_tmp_reg[10][31]  | 11     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[10].dividend_tmp_reg[11][31] | 12     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[11].dividend_tmp_reg[12][31] | 13     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[12].dividend_tmp_reg[13][31] | 14     | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][19] | 20     | 1     | NO           | YES                | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][18] | 19     | 1     | NO           | YES                | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][17] | 18     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][16] | 17     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][15] | 16     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].dividend_tmp_reg[32][14] | 15     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_sdiv_32ng8j_U12/mabonsoc_sdiv_32ng8j_div_U/mabonsoc_sdiv_32ng8j_div_u_0/loop[31].sign_tmp_reg[32][1]      | 33     | 1     | NO           | NO                 | YES               | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[17]                                                   | 19     | 1     | NO           | NO                 | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[16]                                                   | 18     | 1     | NO           | YES                | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[15]                                                   | 17     | 1     | NO           | NO                 | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[14]                                                   | 16     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[13]                                                   | 15     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[12]                                                   | 14     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[11]                                                   | 13     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[10]                                                   | 12     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[9]                                                    | 11     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[8]                                                    | 10     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[7]                                                    | 9      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[6]                                                    | 8      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[5]                                                    | 7      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[4]                                                    | 6      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[3]                                                    | 5      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[2]                                                    | 4      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U13/mabonsoc_udiv_18nhbi_div_U/quot_reg[1]                                                    | 3      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[17]                                                   | 19     | 1     | NO           | NO                 | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[16]                                                   | 18     | 1     | NO           | YES                | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[15]                                                   | 17     | 1     | NO           | NO                 | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[14]                                                   | 16     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[13]                                                   | 15     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[12]                                                   | 14     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[11]                                                   | 13     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[10]                                                   | 12     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[9]                                                    | 11     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[8]                                                    | 10     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[7]                                                    | 9      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[6]                                                    | 8      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[5]                                                    | 7      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[4]                                                    | 6      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[3]                                                    | 5      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[2]                                                    | 4      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U14/mabonsoc_udiv_18nhbi_div_U/quot_reg[1]                                                    | 3      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[17]                                                   | 19     | 1     | NO           | NO                 | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[16]                                                   | 18     | 1     | NO           | YES                | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[15]                                                   | 17     | 1     | NO           | NO                 | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[14]                                                   | 16     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[13]                                                   | 15     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[12]                                                   | 14     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[11]                                                   | 13     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[10]                                                   | 12     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[9]                                                    | 11     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[8]                                                    | 10     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[7]                                                    | 9      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[6]                                                    | 8      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[5]                                                    | 7      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[4]                                                    | 6      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[3]                                                    | 5      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[2]                                                    | 4      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/quot_reg[1]                                                    | 3      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[17]                                                   | 19     | 1     | NO           | NO                 | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[16]                                                   | 18     | 1     | NO           | YES                | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[15]                                                   | 17     | 1     | NO           | NO                 | NO                | 0      | 1       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[14]                                                   | 16     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[13]                                                   | 15     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[12]                                                   | 14     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[11]                                                   | 13     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[10]                                                   | 12     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[9]                                                    | 11     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[8]                                                    | 10     | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[7]                                                    | 9      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[6]                                                    | 8      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[5]                                                    | 7      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[4]                                                    | 6      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[3]                                                    | 5      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[2]                                                    | 4      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U16/mabonsoc_udiv_18nhbi_div_U/quot_reg[1]                                                    | 3      | 1     | NO           | YES                | NO                | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[2].dividend_tmp_reg[3][17]   | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[3].dividend_tmp_reg[4][17]   | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[0].dividend_tmp_reg[1][17]   | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[4].dividend_tmp_reg[5][17]   | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[1].dividend_tmp_reg[2][17]   | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[6].dividend_tmp_reg[7][17]   | 9      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[5].dividend_tmp_reg[6][17]   | 8      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[8].dividend_tmp_reg[9][17]   | 11     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[7].dividend_tmp_reg[8][17]   | 10     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[10].dividend_tmp_reg[11][17] | 13     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[9].dividend_tmp_reg[10][17]  | 12     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[11].dividend_tmp_reg[12][17] | 14     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[12].dividend_tmp_reg[13][17] | 15     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[13].dividend_tmp_reg[14][17] | 16     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[14].dividend_tmp_reg[15][17] | 17     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|mabonsoc    | mabonsoc_udiv_18nhbi_U15/mabonsoc_udiv_18nhbi_div_U/mabonsoc_udiv_18nhbi_div_u_0/loop[15].dividend_tmp_reg[16][17] | 18     | 1     | NO           | NO                 | YES               | 0      | 1       | 
++------------+--------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |  2378|
+|2     |DSP48E1    |     2|
+|3     |DSP48E1_1  |     1|
+|4     |DSP48E1_2  |     1|
+|5     |LUT1       |  2459|
+|6     |LUT2       |  4010|
+|7     |LUT3       |  5352|
+|8     |LUT4       |  1042|
+|9     |LUT5       |  1940|
+|10    |LUT6       |   713|
+|11    |RAMB18E1_1 |     1|
+|12    |SRL16E     |   179|
+|13    |SRLC32E    |    29|
+|14    |FDRE       | 10687|
+|15    |FDSE       |     1|
++------+-----------+------+
+
+Report Instance Areas: 
++------+---------------------------------------+------------------------------+------+
+|      |Instance                               |Module                        |Cells |
++------+---------------------------------------+------------------------------+------+
+|1     |top                                    |                              | 28795|
+|2     |  inst                                 |mabonsoc                      | 28795|
+|3     |    grp_log_28_15_s_fu_266             |log_28_15_s                   |   563|
+|4     |      log_apfixed_reduce_2_U           |log_28_15_s_log_acud          |     2|
+|5     |        log_28_15_s_log_acud_rom_U     |log_28_15_s_log_acud_rom      |     2|
+|6     |      log_apfixed_reduce_s_U           |log_28_15_s_log_adEe          |    34|
+|7     |        log_28_15_s_log_adEe_rom_U     |log_28_15_s_log_adEe_rom      |    34|
+|8     |      mabonsoc_mac_mulseOg_U1          |mabonsoc_mac_mulseOg          |    33|
+|9     |        mabonsoc_mac_mulseOg_DSP48_0_U |mabonsoc_mac_mulseOg_DSP48_0  |    33|
+|10    |    grp_sqrt_fixed_28_15_s_fu_246      |sqrt_fixed_28_15_s            |  2144|
+|11    |    grp_sqrt_fixed_28_15_s_fu_251      |sqrt_fixed_28_15_s_0          |  2144|
+|12    |    grp_sqrt_fixed_28_15_s_fu_256      |sqrt_fixed_28_15_s_1          |  2200|
+|13    |    grp_sqrt_fixed_28_15_s_fu_261      |sqrt_fixed_28_15_s_2          |  2144|
+|14    |    mabonsoc_BUS_A_s_axi_U             |mabonsoc_BUS_A_s_axi          |   176|
+|15    |    mabonsoc_mux_42_1fYi_U19           |mabonsoc_mux_42_1fYi          |    22|
+|16    |    mabonsoc_mux_42_1fYi_U8            |mabonsoc_mux_42_1fYi_3        |    19|
+|17    |    mabonsoc_mux_42_1ibs_U17           |mabonsoc_mux_42_1ibs          |    72|
+|18    |    mabonsoc_mux_42_1ibs_U18           |mabonsoc_mux_42_1ibs_4        |    32|
+|19    |    mabonsoc_sdiv_32ng8j_U10           |mabonsoc_sdiv_32ng8j          |  3298|
+|20    |      mabonsoc_sdiv_32ng8j_div_U       |mabonsoc_sdiv_32ng8j_div_21   |  3298|
+|21    |        mabonsoc_sdiv_32ng8j_div_u_0   |mabonsoc_sdiv_32ng8j_div_u_22 |  3205|
+|22    |    mabonsoc_sdiv_32ng8j_U11           |mabonsoc_sdiv_32ng8j_5        |  3298|
+|23    |      mabonsoc_sdiv_32ng8j_div_U       |mabonsoc_sdiv_32ng8j_div_19   |  3298|
+|24    |        mabonsoc_sdiv_32ng8j_div_u_0   |mabonsoc_sdiv_32ng8j_div_u_20 |  3205|
+|25    |    mabonsoc_sdiv_32ng8j_U12           |mabonsoc_sdiv_32ng8j_6        |  3298|
+|26    |      mabonsoc_sdiv_32ng8j_div_U       |mabonsoc_sdiv_32ng8j_div_17   |  3298|
+|27    |        mabonsoc_sdiv_32ng8j_div_u_0   |mabonsoc_sdiv_32ng8j_div_u_18 |  3205|
+|28    |    mabonsoc_sdiv_32ng8j_U9            |mabonsoc_sdiv_32ng8j_7        |  3298|
+|29    |      mabonsoc_sdiv_32ng8j_div_U       |mabonsoc_sdiv_32ng8j_div      |  3298|
+|30    |        mabonsoc_sdiv_32ng8j_div_u_0   |mabonsoc_sdiv_32ng8j_div_u    |  3205|
+|31    |    mabonsoc_udiv_18nhbi_U13           |mabonsoc_udiv_18nhbi          |  1239|
+|32    |      mabonsoc_udiv_18nhbi_div_U       |mabonsoc_udiv_18nhbi_div_15   |  1239|
+|33    |        mabonsoc_udiv_18nhbi_div_u_0   |mabonsoc_udiv_18nhbi_div_u_16 |  1207|
+|34    |    mabonsoc_udiv_18nhbi_U14           |mabonsoc_udiv_18nhbi_8        |  1239|
+|35    |      mabonsoc_udiv_18nhbi_div_U       |mabonsoc_udiv_18nhbi_div_13   |  1239|
+|36    |        mabonsoc_udiv_18nhbi_div_u_0   |mabonsoc_udiv_18nhbi_div_u_14 |  1207|
+|37    |    mabonsoc_udiv_18nhbi_U15           |mabonsoc_udiv_18nhbi_9        |  1341|
+|38    |      mabonsoc_udiv_18nhbi_div_U       |mabonsoc_udiv_18nhbi_div_11   |  1341|
+|39    |        mabonsoc_udiv_18nhbi_div_u_0   |mabonsoc_udiv_18nhbi_div_u_12 |  1308|
+|40    |    mabonsoc_udiv_18nhbi_U16           |mabonsoc_udiv_18nhbi_10       |  1239|
+|41    |      mabonsoc_udiv_18nhbi_div_U       |mabonsoc_udiv_18nhbi_div      |  1239|
+|42    |        mabonsoc_udiv_18nhbi_div_u_0   |mabonsoc_udiv_18nhbi_div_u    |  1207|
++------+---------------------------------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:13 ; elapsed = 00:01:14 . Memory (MB): peak = 1135.063 ; gain = 522.383
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 53 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:00 ; elapsed = 00:01:08 . Memory (MB): peak = 1135.063 ; gain = 328.855
+Synthesis Optimization Complete : Time (s): cpu = 00:01:13 ; elapsed = 00:01:14 . Memory (MB): peak = 1135.063 ; gain = 522.383
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2383 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1153.117 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+295 Infos, 162 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:24 ; elapsed = 00:01:26 . Memory (MB): peak = 1153.117 ; gain = 809.645
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1153.117 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/animesh21131/mabonSOC/mabonsoc.runs/design_1_mabonsoc_0_5_synth_1/design_1_mabonsoc_0_5.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_mabonsoc_0_5, cache-ID = b5ad7a24e6da63f1
+INFO: [Coretcl 2-1174] Renamed 41 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1153.117 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/animesh21131/mabonSOC/mabonsoc.runs/design_1_mabonsoc_0_5_synth_1/design_1_mabonsoc_0_5.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1153.117 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file design_1_mabonsoc_0_5_utilization_synth.rpt -pb design_1_mabonsoc_0_5_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 17 14:05:06 2023...

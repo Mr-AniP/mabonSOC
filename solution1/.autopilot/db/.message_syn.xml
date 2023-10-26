@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_631" tag="SCHEDULE" content="Option &apos;relax_ii_for_timing&apos; is enabled, will increase II to preserve clock frequency constraints."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;mabonSOC/mabonsoc.cpp&apos; ..."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Linking Time (s): cpu = 00:00:01 ; elapsed = 00:00:57 . Memory (MB): peak = 178.977 ; gain = 87.570"/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Checking Pragmas Time (s): cpu = 00:00:01 ; elapsed = 00:00:57 . Memory (MB): peak = 178.977 ; gain = 87.570"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1467" tag="" content="Starting code transformations ..."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Standard Transforms Time (s): cpu = 00:00:03 ; elapsed = 00:01:01 . Memory (MB): peak = 256.734 ; gain = 165.328"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1472" tag="" content="Checking synthesizability ..."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;log_apfixed_reduce::range_reduce&lt;ap_fixed&lt;29, 7, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 4, 4, 24, 15&gt;&apos; into &apos;log_apfixed_reduce::log_traits&lt;2&gt;::range_reduction&lt;24&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_log_apfixed.h:252) automatically."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;log_apfixed_reduce::log_traits&lt;2&gt;::range_reduction&lt;24&gt;&apos; into &apos;log_apfixed_reduce::log&lt;28, 15&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_log_apfixed.h:771) automatically."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;log_apfixed_reduce::log&lt;27, 14&gt;&apos; into &apos;hls::log&lt;27, 14&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot\hls_math.h:1200) automatically."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;sqrt_fixed&lt;27, 14&gt;&apos; into &apos;hls::sqrt&lt;27, 14&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot\hls_math.h:1272) automatically."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;hls::log&lt;27, 14&gt;&apos; into &apos;mabonsoc&apos; (mabonSOC/mabonsoc.cpp:16) automatically."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;hls::sqrt&lt;27, 14&gt;&apos; into &apos;mabonsoc&apos; (mabonSOC/mabonsoc.cpp:27) automatically."/>
+	<Message severity="WARNING" prefix="[SYNCHK 200-23]" key="SYNCHK_VAR_INDEX_RANGE_359" tag="" content="E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_sqrt_apfixed.h:272: variable-indexed range selection may cause suboptimal QoR."/>
+	<Message severity="INFO" prefix="[SYNCHK 200-10]" key="SYNCHK_SYNCHK_SUMMARY_377" tag="" content="0 error(s), 1 warning(s)."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Checking Synthesizability Time (s): cpu = 00:00:04 ; elapsed = 00:01:02 . Memory (MB): peak = 313.512 ; gain = 222.105"/>
+	<Message severity="INFO" prefix="[XFORM 203-502]" key="XFORM_AUTO_UNROLL_STATUS_250" tag="" content="Unrolling all loops for pipelining in function &apos;sqrt_fixed&lt;28, 15&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_sqrt_apfixed.h:44:36)."/>
+	<Message severity="INFO" prefix="[XFORM 203-502]" key="XFORM_AUTO_UNROLL_STATUS_250" tag="" content="Unrolling all loops for pipelining in function &apos;mabonsoc&apos; (mabonSOC/mabonsoc.cpp:2)."/>
+	<Message severity="WARNING" prefix="[XFORM 203-505]" key="XFORM_UNROLL_DEAD_PIPELINE_247" tag="" content="Ignored pipeline directive for loop &apos;L1&apos; (mabonSOC/mabonsoc.cpp:24) because its parent loop or function is pipelined."/>
+	<Message severity="WARNING" prefix="[XFORM 203-505]" key="XFORM_UNROLL_DEAD_PIPELINE_247" tag="" content="Ignored pipeline directive for loop &apos;L2&apos; (mabonSOC/mabonsoc.cpp:32) because its parent loop or function is pipelined."/>
+	<Message severity="INFO" prefix="[XFORM 203-502]" key="XFORM_AUTO_UNROLL_STATUS_250" tag="" content="Unrolling all loops for pipelining in function &apos;log_apfixed_reduce::log&lt;28, 15&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_log_apfixed.h:500:9)."/>
+	<Message severity="INFO" prefix="[HLS 200-489]" key="HLS 200-489" tag="" content="Unrolling loop &apos;Loop-1&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_sqrt_apfixed.h:267) in function &apos;sqrt_fixed&lt;28, 15&gt;&apos; completely with a factor of 8."/>
+	<Message severity="INFO" prefix="[HLS 200-489]" key="HLS 200-489" tag="" content="Unrolling loop &apos;Loop-2&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_sqrt_apfixed.h:295) in function &apos;sqrt_fixed&lt;28, 15&gt;&apos; completely with a factor of 14."/>
+	<Message severity="INFO" prefix="[HLS 200-489]" key="HLS 200-489" tag="" content="Unrolling loop &apos;L1&apos; (mabonSOC/mabonsoc.cpp:24) in function &apos;mabonsoc&apos; completely with a factor of 16."/>
+	<Message severity="INFO" prefix="[HLS 200-489]" key="HLS 200-489" tag="" content="Unrolling loop &apos;L2&apos; (mabonSOC/mabonsoc.cpp:32) in function &apos;mabonsoc&apos; completely with a factor of 15."/>
+	<Message severity="INFO" prefix="[HLS 200-489]" key="HLS 200-489" tag="" content="Unrolling loop &apos;Loop-1&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_log_apfixed.h:729) in function &apos;log_apfixed_reduce::log&lt;28, 15&gt;&apos; completely with a factor of 28."/>
+	<Message severity="INFO" prefix="[XFORM 203-101]" key="XFORM_PARTITION_STATUS_116" tag="" content="Partitioning array &apos;UCB.V&apos; (mabonSOC/mabonsoc.cpp:9) in dimension 1 completely."/>
+	<Message severity="INFO" prefix="[XFORM 203-101]" key="XFORM_PARTITION_STATUS_116" tag="" content="Partitioning array &apos;T.V&apos;  in dimension 1 completely."/>
+	<Message severity="INFO" prefix="[XFORM 203-101]" key="XFORM_PARTITION_STATUS_116" tag="" content="Partitioning array &apos;X.V&apos;  in dimension 1 completely."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;log_apfixed_reduce::range_reduce&lt;ap_fixed&lt;29, 7, (ap_q_mode)5, (ap_o_mode)3, 0&gt;, 4, 4, 24, 15&gt;&apos; into &apos;log_apfixed_reduce::log_traits&lt;2&gt;::range_reduction&lt;24&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_log_apfixed.h:252) automatically."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;log_apfixed_reduce::log_traits&lt;2&gt;::range_reduction&lt;24&gt;&apos; into &apos;log_apfixed_reduce::log&lt;28, 15&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_log_apfixed.h:771) automatically."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;log_apfixed_reduce::log&lt;27, 14&gt;&apos; into &apos;hls::log&lt;27, 14&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot\hls_math.h:1200) automatically."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;sqrt_fixed&lt;27, 14&gt;&apos; into &apos;hls::sqrt&lt;27, 14&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot\hls_math.h:1272) automatically."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;hls::log&lt;27, 14&gt;&apos; into &apos;mabonsoc&apos; (mabonSOC/mabonsoc.cpp:16) automatically."/>
+	<Message severity="INFO" prefix="[XFORM 203-602]" key="XFORM_AUTO_INLINE_STATUS_223" tag="" content="Inlining function &apos;hls::sqrt&lt;27, 14&gt;&apos; into &apos;mabonsoc&apos; (mabonSOC/mabonsoc.cpp:27) automatically."/>
+	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock to (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_sqrt_apfixed.h:372:1) in function &apos;sqrt_fixed&lt;28, 15&gt;&apos;... converting 111 basic blocks."/>
+	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock from (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_log_apfixed.h:727:44) to (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_log_apfixed.h:747:17) in function &apos;log_apfixed_reduce::log&lt;28, 15&gt;&apos;... converting 29 basic blocks."/>
+	<Message severity="INFO" prefix="[XFORM 203-11]" key="XFORM_EXPR_BALANCE_STATUS_178" tag="" content="Balancing expressions in function &apos;log_apfixed_reduce::log&lt;28, 15&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_log_apfixed.h:178:90)...3 expression(s) balanced."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Pre-synthesis Time (s): cpu = 00:00:06 ; elapsed = 00:01:04 . Memory (MB): peak = 407.145 ; gain = 315.738"/>
+	<Message severity="WARNING" prefix="[XFORM 203-631]" key="XFORM_FRN_STATUS_336" tag="" content="Renaming function &apos;log_apfixed_reduce::log&lt;28, 15&gt;&apos; to &apos;log&lt;28, 15&gt;&apos; (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_log_apfixed.h:178:90)"/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Architecture Synthesis Time (s): cpu = 00:00:09 ; elapsed = 00:01:07 . Memory (MB): peak = 435.684 ; gain = 344.277"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1317" tag="" content="Starting hardware synthesis ..."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1385" tag="" content="Synthesizing &apos;mabonsoc&apos; ..."/>
+	<Message severity="WARNING" prefix="[SYN 201-103]" key="SYN_MODULE_NAME_ILLEGAL_445" tag="" content="Legalizing function name &apos;log&lt;28, 15&gt;&apos; to &apos;log_28_15_s&apos;."/>
+	<Message severity="WARNING" prefix="[SYN 201-103]" key="SYN_MODULE_NAME_ILLEGAL_445" tag="" content="Legalizing function name &apos;sqrt_fixed&lt;28, 15&gt;&apos; to &apos;sqrt_fixed_28_15_s&apos;."/>
+	<Message severity="WARNING" prefix="[SYN 201-107]" key="SYN_PORT_NAME_ILLEGAL_593" tag="" content="Renaming port name &apos;mabonsoc/Out&apos; to &apos;mabonsoc/Out_r&apos; to avoid the conflict with HDL keywords or other object names."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;log_28_15_s&apos;"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..."/>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;log&lt;28, 15&gt;&apos;."/>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 7."/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 66.9 seconds; current allocated memory: 372.828 MB."/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.341 seconds; current allocated memory: 374.006 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;sqrt_fixed_28_15_s&apos;"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..."/>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;sqrt_fixed&lt;28, 15&gt;&apos;."/>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 1, Final II = 1, Depth = 11."/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.745 seconds; current allocated memory: 375.128 MB."/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 0.432 seconds; current allocated memory: 376.646 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;mabonsoc&apos;"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..."/>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_46" tag="" content="Pipelining function &apos;mabonsoc&apos;."/>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_44" tag="" content="Pipelining result : Target II = 48, Final II = 48, Depth = 52."/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.012 seconds; current allocated memory: 378.841 MB."/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.403 seconds; current allocated memory: 384.716 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;log_28_15_s&apos;"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;log_28_15_s_log_apfixed_reduce_3&apos; to &apos;log_28_15_s_log_abkb&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;log_28_15_s_log_apfixed_reduce_2&apos; to &apos;log_28_15_s_log_acud&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;log_28_15_s_log_apfixed_reduce_s&apos; to &apos;log_28_15_s_log_adEe&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;mabonsoc_mac_mulsub_24ns_4ns_29ns_29_1_1&apos; to &apos;mabonsoc_mac_mulseOg&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mabonsoc_mac_mulseOg&apos;: 1 instance(s)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;log_28_15_s&apos;."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 5.194 seconds; current allocated memory: 391.859 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;sqrt_fixed_28_15_s&apos;"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;sqrt_fixed_28_15_s&apos;."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.145 seconds; current allocated memory: 395.098 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;mabonsoc&apos;"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;mabonsoc/Out_r&apos; to &apos;s_axilite &amp; ap_vld&apos;."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;mabonsoc/reward&apos; to &apos;s_axilite &amp; ap_none&apos;."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on function &apos;mabonsoc&apos; to &apos;s_axilite &amp; ap_ctrl_hs&apos;."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;Index_V&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_0&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_1&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_2&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_3&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_4&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_5&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_6&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_7&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_8&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_9&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_10&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_11&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_12&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_13&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_14&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;X_V_15&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_0&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_1&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_2&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_3&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_4&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_5&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_6&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_7&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_8&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_9&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_10&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_11&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_12&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_13&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_14&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;T_V_15&apos; is power-on initialization."/>
+	<Message severity="WARNING" prefix="[RTGEN 206-101]" key="RTGEN_101_861" tag="" content="Register &apos;t_V&apos; is power-on initialization."/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_851" tag="" content="Bundling port &apos;return&apos;, &apos;Out_r&apos; and &apos;reward&apos; to AXI-Lite port BUS_A."/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;mabonsoc_mux_164_14_1_1&apos; to &apos;mabonsoc_mux_164_fYi&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;mabonsoc_sdiv_32ns_15ns_32_36_1&apos; to &apos;mabonsoc_sdiv_32ng8j&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;mabonsoc_udiv_18ns_14ns_18_22_1&apos; to &apos;mabonsoc_udiv_18nhbi&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;mabonsoc_mux_164_15_1_1&apos; to &apos;mabonsoc_mux_164_ibs&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mabonsoc_mux_164_fYi&apos;: 50 instance(s)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mabonsoc_mux_164_ibs&apos;: 14 instance(s)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mabonsoc_sdiv_32ng8j&apos;: 16 instance(s)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;mabonsoc_udiv_18nhbi&apos;: 16 instance(s)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;mabonsoc&apos;."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 2.822 seconds; current allocated memory: 405.341 MB."/>
+	<Message severity="INFO" prefix="[RTMG 210-279]" key="RTMG_279_1793" tag="" content="Implementing memory &apos;log_28_15_s_log_abkb_rom&apos; using distributed ROMs."/>
+	<Message severity="INFO" prefix="[RTMG 210-279]" key="RTMG_279_1793" tag="" content="Implementing memory &apos;log_28_15_s_log_acud_rom&apos; using auto ROMs."/>
+	<Message severity="INFO" prefix="[RTMG 210-279]" key="RTMG_279_1793" tag="" content="Implementing memory &apos;log_28_15_s_log_adEe_rom&apos; using distributed ROMs."/>
+	<Message severity="INFO" prefix="[RTMG 210-282]" key="RTMG_282_1796" tag="" content="Generating pipelined core: &apos;mabonsoc_sdiv_32ng8j_div&apos;"/>
+	<Message severity="INFO" prefix="[RTMG 210-282]" key="RTMG_282_1796" tag="" content="Generating pipelined core: &apos;mabonsoc_udiv_18nhbi_div&apos;"/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished generating all RTL models Time (s): cpu = 00:00:26 ; elapsed = 00:01:29 . Memory (MB): peak = 509.680 ; gain = 418.273"/>
+	<Message severity="INFO" prefix="[VHDL 208-304]" key="VHDL_304_1066" tag="" content="Generating VHDL RTL for mabonsoc."/>
+	<Message severity="INFO" prefix="[VLOG 209-307]" key="VLOG_307_1067" tag="" content="Generating Verilog RTL for mabonsoc."/>
+</Messages>
