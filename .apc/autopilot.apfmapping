@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="mabonsoc.cpp" path="C:\Users\animesh21131\mabonSOC\mabonsoc.cpp"/>
+    <originFiles name="mabonSOC.h" path="C:\Users\animesh21131\mabonSOC\mabonSOC.h"/>
+  </source>
+  <testbench>
+    <originFiles name="mobonsoctb.cpp" path="C:\Users\animesh21131\mabonSOC\mobonsoctb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

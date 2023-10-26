@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 't_V' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:03.025+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_15' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.997+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_14' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.974+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_13' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.956+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_12' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.940+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_11' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.923+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_10' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.903+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_9' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.877+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_8' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.858+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_7' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.845+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_6' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.820+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_5' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.801+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_4' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.786+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_3' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.776+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_2' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.764+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_1' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.721+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'T_V_0' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.708+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_15' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.679+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_14' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.661+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_13' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.634+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_12' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.620+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_11' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.609+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_10' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.585+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_9' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.566+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_8' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.548+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_7' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.530+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_6' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.511+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_5' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.492+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_4' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.475+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_3' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.463+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_2' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.431+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_1' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.414+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_V_0' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.380+0530" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'Index_V' is power-on initialization." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:59:02.363+0530" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'mabonsoc/Out' to 'mabonsoc/Out_r' to avoid the conflict with HDL keywords or other object names." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:58:49.356+0530" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'sqrt_fixed&lt;28, 15>' to 'sqrt_fixed_28_15_s'." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:58:49.340+0530" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'log&lt;28, 15>' to 'log_28_15_s'." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:58:49.317+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'log_apfixed_reduce::log&lt;28, 15>' to 'log&lt;28, 15>' (E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_log_apfixed.h:178:90)" projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:58:49.261+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'L2' (mabonSOC/mabonsoc.cpp:32) because its parent loop or function is pipelined." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:58:44.682+0530" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-505] Ignored pipeline directive for loop 'L1' (mabonSOC/mabonsoc.cpp:24) because its parent loop or function is pipelined." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:58:44.667+0530" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-23] E:/xilinx/Vivado/2019.1/common/technology/autopilot/hls_sqrt_apfixed.h:272: variable-indexed range selection may cause suboptimal QoR." projectName="mabonSOC" solutionName="solution1" date="2023-08-19T15:58:44.186+0530" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

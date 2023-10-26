@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:.bss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:.data=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:.data1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:.fixup=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:.rodata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:.rodata1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:.sbss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:.sbss2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:.sdata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:.sdata2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:.text=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:heap=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:heap-size=10240000
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:stack=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.mabonsoc\:stack-size=10240000
+eclipse.preferences.version=1
