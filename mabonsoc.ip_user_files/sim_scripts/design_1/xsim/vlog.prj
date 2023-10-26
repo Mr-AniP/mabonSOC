@@ -1,0 +1,21 @@
+verilog xil_defaultlib --include "../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/8c62/hdl" --include "../../../../mabonsoc.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_abkb.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_acud.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/log_28_15_s_log_adEe.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_BUS_A_s_axi.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_mac_mulseOg.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_mux_42_1fYi.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_mux_42_1ibs.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_sdiv_32ng8j.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc_udiv_18nhbi.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/sqrt_fixed_28_15_s.v" \
+"../../../../mabonsoc.srcs/sources_1/bd/design_1/ipshared/3266/hdl/verilog/mabonsoc.v" \
+"../../../bd/design_1/ip/design_1_mabonsoc_0_5/sim/design_1_mabonsoc_0_5.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
